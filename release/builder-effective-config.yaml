@@ -1,0 +1,14 @@
+directories:
+  output: release
+  buildResources: build
+appId: com.exemple.jeu
+productName: Jeu
+files:
+  - filter:
+      - dist/**/*
+      - main.cjs
+      - package.json
+win:
+  target:
+    - portable
+electronVersion: 45.4.1

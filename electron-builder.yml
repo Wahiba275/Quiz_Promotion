@@ -1,0 +1,14 @@
+appId: com.exemple.jeu
+productName: Jeu
+
+directories:
+  output: release
+
+files:
+  - dist/**/*
+  - main.cjs
+  - package.json
+
+win:
+  target:
+    - portable
